@@ -12,8 +12,7 @@ load_dotenv()
 
 embeddings_model_name = os.environ.get("EMBEDDINGS_MODEL_NAME")
 persist_directory = os.environ.get('PERSIST_DIRECTORY')
-
-# model_type = os.environ.get('MODEL_TYPE')
+model_type = os.environ.get('MODEL_TYPE')
 model_type = "OpenAI"
 model_path = os.environ.get('MODEL_PATH')
 model_n_ctx = os.environ.get('MODEL_N_CTX')
